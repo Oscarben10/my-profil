@@ -1,0 +1,90 @@
+.container{
+	width: 750px;
+	margin: 100px auto;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50,50,93,.3);
+
+}
+
+.btn-blue {
+	background-color: rgb(255,102,102);
+	color: black;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue hover {
+	background-color: rgb(255,153,102);
+	color: white;
+}	
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 0px 10px;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+h1{
+	letter-spacing: 3px;
+	color: rgb(255,0,0);
+}
+
+h2{
+	color: rgb(255,102,102);
+}
+
+a{
+	color: rgb(0, 0, 0);
+	transition:color 0.3s ease;
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(255,102,102);
+	text-decoration: underline;
+}
+body{
+	background-color: rgb(255,153,102);
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-family: comic sans;, sans-serif;
+	text-decoration: none;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 300px){
+	.container{
+		width: 300px;
+	}
+}
+@media (max-width: 300px) {
+  .container {
+    width: 300px;
+  }
+}
